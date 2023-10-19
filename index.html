@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expectations</title>
+    <script src="index-test.js"></script>
+  </head>
+  <body>
+    Expect add(x, y) to return the sum of x and y Expect add(x, 0) to return x
+    Expect add(0, y) to return y Expect add(x, y) to be commutative, meaning
+    add(x, y) should be the same as add(y, x) Expect add(x, y) to be
+    associative, meaning add(x, add(y, z)) should be the same as add(add(x, y),
+    z) Expect add(x, y) to be distributive over addition, meaning add(x, add(y,
+    z)) should be the same as add(add(x, y), add(x, z))) Expect add(x,y) to
+    return NaN if either x or y is not a number Expect add(x, y) to return
+    Infinity if one of the numbers is Infinity and the other is not So if we
+    apply this reasoning to the multiply function, we can expect: Expect
+    multiply(x, y) to return the product of x and y Expect multiply(x, 1) to
+    return x Expect multiply(1, y) to return y Expect multiply(x, y) to be
+    commutative, meaning multiply(x, y) should be the same as multiply(y, x)
+    Expect multiply(x, y) to be associative, meaning multiply(x, multiply(y, z))
+    should be the same as multiply(multiply(x, y), z) Expect multiply(x,y) to be
+    distributive over multiplication, meaning multiply(x, multiply(y, z)) should
+    be the same as multiply(multiply(x, y), multiply(x, z))) Expect multiply(x,
+    y) to return NaN if either x or y is not a number Expect multiply(x, y) to
+    return Infinity if one of the numbers is Infinity and the other is not
+    Expect multiply(x, y) to return 0 if either x or y is 0 !-- This list
+    provides a comprehensive set of expectations for the multiply function based
+    on its --!
+  </body>
+</html>
