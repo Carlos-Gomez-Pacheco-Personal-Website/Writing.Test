@@ -8,6 +8,7 @@
   </head>
   <body>
     <div>
+      <h1>Multiplication</h1>
       <p>
         Expect add(x, y) to return the sum of x and y <br />Expect add(x, 0) to
         return x <br />Expect add(0, y) to return y <br />Expect add(x, y) to be
@@ -17,6 +18,47 @@
         distributive over addition, meaning add(x, add(y, z)) should be the same
         as add(add(x, y), add(x, z)) <br />Expect add(x,y) to return NaN if
         either x or y is not a number <br />Expect add(x, y) to return
+      </p>
+      <h1>ConcatOdds</h1>
+      <p>
+        Expect concatOdds([], []) should return an empty array. <br />
+        Expect concatOdds([1], [3]) should return [1, 3]. <br />
+        Expect concatOdds([1, 2, 3], [4, 5, 6]) should return [1, 3, 5]. <br />
+        Expect concatOdds([1, 3, 5], [2, 4, 6, 7]) should return [1, 3, 5, 7].
+        <br />
+        Expect concatOdds([1, 3, 5], [2, 4, 6, 7, 9]) should return [1, 3, 5, 7,
+        9]. <br />
+        Expect concatOdds([1, 3, 5], [2, 4, 6, 7, 9, 11]) should return `[1, 3,
+        5, 7, 9, 11]. <br />
+        Expect concatOdds([1, 3, 5], [2, 4, 6, 7, 9, 11, 13]) should return `[1,
+        3, 5, 7, 9, 11, 13]. <br />
+        Expect concatOdds([1, 3, 5], [2, 4, 6, 7, 9, 11, 13, 15]) should return
+        [1, 3, 5, 7, 9, 11, 13, 15]. <br />
+      </p>
+      <h1>Shopping Cart</h1>
+      <p>
+        Pseudocode for test cases for a shopping cart checkout feature: <br />
+        When the user is not logged in and the cart is empty<br />
+        <li>Expect the user tries to check out</li>
+        <br />
+        <li>
+          Expect the user should be prompted to either log in or create an
+          account
+        </li>
+        <br />
+        When the user is not logged in and the cart has items <br />
+        <li>Expect the user tries to check out</li>
+        <br />
+        <li>
+          Expect the user should be prompted to either log in or create an
+          account
+        </li>
+        <br />
+        When the user is logged in and the cart is empty <br />
+        <li>Expect the user tries to check out</li>
+        <br />
+        <li>Expect the user should be taken to the payment page</li>
+        <br />
       </p>
     </div>
   </body>
